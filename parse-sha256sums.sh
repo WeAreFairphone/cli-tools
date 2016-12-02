@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# See bottom for license
+
 # Usage:
 # curl -O https://raw.githubusercontent.com/WeAreFairphone/cli-tools/master/checksums.sh
 # chmod +x checksums.sh
@@ -46,3 +48,19 @@ if [ "$blobs" = true ]; then
     # Only print latest
     echo "${blobsums} ${blobfilenames}"
 fi
+
+############################## LICENSE ##############################
+#        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+#                    Version 2, December 2004 
+#
+# Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
+#
+# Everyone is permitted to copy and distribute verbatim or modified 
+# copies of this license document, and changing it is allowed as long 
+# as the name is changed. 
+#
+#            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+#   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+#
+#  0. You just DO WHAT THE FUCK YOU WANT TO.
+#
